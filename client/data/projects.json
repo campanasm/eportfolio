@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Database for a Movie Streaming Company",
+    "category": "Database Project",
+    "tools": ["SQL", "MySQL", "ER Modeling"],
+    "image": "/client/public/images/projects/project-1.jpg",
+    "description": "Designed and implemented a relational database for a movie streaming platform, including schema design, normalization, and complex SQL queries."
+  },
+  {
+    "title": "Mobile App Calculator",
+    "category": "Mobile Application",
+    "tools": ["Java", "Android Studio"],
+    "image": "/client/public/images/projects/project-2.jpg",
+    "description": "Developed a mobile app that calculates the area and circumference of a circle with a simple and user-friendly interface."
+  },
+  {
+    "title": "T-Mobile Stock Analysis",
+    "category": "Data Analysis",
+    "tools": ["Excel"],
+    "image": "/client/public/images/projects/project-3.jpg",
+    "description": "Performed technical analysis on T-Mobile stock data, identifying trends and patterns using data visualization and statistical tools."
+  }
+]

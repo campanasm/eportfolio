@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Database for a Movie Streaming Company",
+    "image": "/images/projects/project-1.jpg",
+    "description": "Database for a Movie Streaming Company including SQL queries."
+  },
+  {
+    "title": "Mobile App Calculator",
+    "image": "/images/projects/project-2.jpg",
+    "description": "Mobile app calculating area and circumference."
+  },
+  {
+    "title": "T-Mobile Stock Analysis",
+    "image": "/images/projects/project-3.jpg",
+    "description": "Technical analysis of T-Mobile stock trends."
+  }
+]

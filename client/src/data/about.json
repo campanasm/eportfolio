@@ -1,0 +1,34 @@
+{
+  "name": "Sonia Campana",
+  "age": 36,
+  "birthplace": "Guayaquil, Ecuador",
+  "education": [
+    {
+      "degree": "International Commerce and Finance Engineering",
+      "institution": "Catholic University of Guayaquil"
+    },
+    {
+      "degree": "MBA Finance",
+      "institution": "Florida Institute of Technology"
+    },
+    {
+      "degree": "MS CIS",
+      "institution": "Florida Institute of Technology"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Banking Assistant",
+      "company": "Produbanco"
+    },
+    {
+      "position": "Investment Dept",
+      "company": "PRO ECUADOR"
+    },
+    {
+      "position": "Treasury Analyst",
+      "company": "Florida Tech"
+    }
+  ],
+  "hobbies": ["Reading", "Spending time with family", "Watching movies", "Swimming"]
+}

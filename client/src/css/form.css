@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.api-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.joke-btn {
+  margin-top: 10px;
+}

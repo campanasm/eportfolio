@@ -1,0 +1,43 @@
+{
+  "education": [
+    {
+      "degree": "International Commerce and Finance Engineering",
+      "institution": "Catholic University of Guayaquil",
+      "year": "2009"
+    },
+    {
+      "degree": "MBA Finance",
+      "institution": "Florida Institute of Technology",
+      "year": "2016"
+    },
+    {
+      "degree": "MS CIS",
+      "institution": "Florida Institute of Technology",
+      "year": "2026"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Banking Assistant",
+      "company": "Produbanco",
+      "duration": "2008-2010"
+    },
+    {
+      "position": "Investment Dept Analyst",
+      "company": "PRO ECUADOR",
+      "duration": "2010-2012"
+    },
+    {
+      "position": "Treasury Analyst",
+      "company": "Florida Tech",
+      "duration": "2016-Present"
+    }
+  ],
+  "skills": [
+    "SQL & Databases",
+    "Financial Analysis",
+    "Python & R",
+    "React & JavaScript",
+    "Data Visualization"
+  ]
+}

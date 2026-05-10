@@ -1,0 +1,7 @@
+## Updates
+The /server directory contains the back-end of the application, built using Node.js, Express, and MongoDB with Mongoose. The server.js file serves as the main entry point. The /models folder contains the Mongoose schema definitions, including the Project model which defines the structure and validation rules for project data stored in MongoDB. The /controllers folder contains the application logic for handling CRUD operations, such as retrieving, creating, updating, and deleting projects. The /routes folder defines the API endpoints and maps them to the appropriate controller functions. The /config folder manages the database connection setup using environment variables for secure configuration.
+
+## Inserting data
+MongoDB Compass was installed from the official MongoDB download page: https://www.mongodb.com/try/download/community. After installation, a new database named 'eportfolio' was created along with a collection named 'projects'. The project data was then imported from the JSON file located at 'client/data/projects.json' into the projects collection.
+The MongoDB connection string (URI) was added to the .env file in the server directory using the variable name MONGO_URI. This value should be replaced with the appropriate local or Atlas connection string depending on the user’s environment.
+Once the database is configured and the server is running using 'npm run dev', the projects can be accessed through the API endpoint: http://localhost:3001/api/projects.
