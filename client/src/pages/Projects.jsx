@@ -4,7 +4,9 @@ import useFetch from "../hooks/useFetch";
 
 function Projects() {
   const [show, setShow] = useState(true);
-  const { data: projects, loading, error } = useFetch("http://localhost:3001/api/projects");
+  const { data: projects, loading, error } = useFetch(
+    `${import.meta.env.VITE_API_BASE_URL}/api/projects`
+  );
 
   return (
     <main>
@@ -21,10 +23,11 @@ function Projects() {
 
       {error && <p>{error}</p>}
 
-      {show && !loading && !error && (
+      {show && !loading && !error && Array.isArray(projects) && (
         <div className="card-container">
-          {projects.map(project => (
+          {projects.map((project) => (
             <ProjectCard
+              key={project._id}
               project={project}
             />
           ))}

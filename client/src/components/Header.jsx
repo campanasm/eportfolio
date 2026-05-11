@@ -27,7 +27,7 @@ function Header() {
       <div className="header-left">
 
         <img
-          src="./client/public/images/headshot.jpg"
+          src="./images/headshot.jpg"
           alt="Portrait of Sonia Campana"
           className="profile-pic"
         />

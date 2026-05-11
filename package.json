@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"node server/server.js\"",
-    "client": "vite",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "cd client && vite",
     "server": "node server/server.js",
     "build": "vite build",
     "lint": "eslint .",

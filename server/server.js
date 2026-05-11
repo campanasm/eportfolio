@@ -1,7 +1,7 @@
+import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import connectDB from "./config/db.js";
-import dotenv from "dotenv";
 import path from "path";
 import axios from "axios";
 import { fileURLToPath } from "url";
@@ -9,7 +9,9 @@ import { fileURLToPath } from "url";
 import contactRoutes from "./routes/contact.js";
 import projectRoutes from "./routes/projectRoutes.js";
 
-dotenv.config();
+import fs from "fs";
+
+dotenv.config({ path: path.resolve("server/.env") });
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
