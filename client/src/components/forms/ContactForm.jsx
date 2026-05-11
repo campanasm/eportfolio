@@ -24,7 +24,7 @@ function ContactForm() {
     setLoading(true);
 
     try {
-      const res = await api.post("http://localhost:3001/api/contact", form);
+      const res = await api.post(`${import.meta.env.VITE_API_BASE_URL}/api/contact`, form);
 
       setFeedback(res.data.message);
 
