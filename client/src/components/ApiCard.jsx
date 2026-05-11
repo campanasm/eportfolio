@@ -4,7 +4,7 @@ function ApiCard() {
   const [joke, setJoke] = useState(null);
 
   const fetchJoke = () => {
-    fetch("http://localhost:3001/api/joke")
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/api/joke`)
       .then((res) => res.json())
       .then((data) => setJoke(data))
       .catch((err) => console.error("Error fetching joke:", err));
